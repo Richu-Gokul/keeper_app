@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+.header {
+  font-family: "Major Mono Display", monospace;
+  font-weight: bolder;
+  background-color: gold;
+}
+.header {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+}
+
+.footer {
+  margin-top: 45%;
+  position: relative;
+  background-color: white;
+}
+
+.content-container {
+  padding-top: 100px;
+}
+
+#btn {
+  position: relative;
+  top: 38px;
+}
+#btn:hover {
+  background-color: goldenrod;
+}
+
+label {
+  position: relative;
+  width: fit-content;
+  background-color: white;
+  padding: 0px 7px;
+
+  top: 11px;
+  left: 12px;
+}
+h5 {
+  text-transform: capitalize;
+}
