@@ -9,12 +9,15 @@ const Hooks = () => {
 
   const handleChange = (event) => {
     const { value, name } = event.target;
+  if(value.trim()){
     setContact((preVal) => {
       return {
         ...preVal,
         [name]: value,
       };
     });
+  }
+    
   };
 
   return (
